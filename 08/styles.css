@@ -65,6 +65,10 @@ footer {
 	.campus {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
+	/* and hiding some elements from mobile version */
+	#top h2 {
+		display:none;
+	}
 }
 
 /* and make dates responsive as well */
